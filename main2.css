@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.intro {
+  height: 100vh;
+}
+
+.intro video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.intro h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: grey;
+}
+
+.intro h2 {
+  position: absolute;
+  top: 37%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  color: rgb(207, 159, 0);
+}
+
+section {
+  height: 100vh;
+  color: black;
+}
+
+.content h1{
+    font-size: 50px;
+    font-family: "Berlin Sans FB";
+    color:grey;
+}
+
+
+.chartMenu {
+    width: 100%;
+    height: 100%;
+    background: #1A1A1A;
+    color: rgba(255, 26, 104, 1);
+  }
+  .chartMenu p {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .chartCard {
+    width: 100vw;
+    height: calc(100vh - 40px);
+    background: rgba(255, 26, 104, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .chartBox {
+    width: 700px;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid 3px rgba(255, 26, 104, 1);
+    background: white;
+  }

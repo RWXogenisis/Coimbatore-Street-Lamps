@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    font-family: "Corbel";
+    padding: 3em;
+}
+
+#v0{
+    position:fixed;
+    bottom:0;
+    right:0;
+    width:100%;
+}
